@@ -5,7 +5,7 @@ Numpy implementation of Sequential Minimal Optimization (SMO) and Parallel Dual 
 # Problem Statement
 
 1. Given dimension $n$, parameters $w\in\mathbb{R}^n,b\in\mathbb{R}$, obtain a hyperplane $w^Tx+b=0$
-2. Generate data $\{(x_1,y_1),\ldots,(x_N,y_N\}$ where $x_i\in\mathbb{R}^n,y_i\in\{-1,1\}$, satisfying $y_i(w^Tx+b)\ge0$ for $i=1,2,\ldots,N$
+2. Generate data $\{(x_1,y_1),\ldots,(x_N,y_N)\}$ where $x_i\in\mathbb{R}^n,y_i\in\{-1,1\}$, satisfying $y_i(w^Tx+b)\ge0$ for $i=1,2,\ldots,N$
 3. Solve the optimal hyperplane that divides the data
 
 # Method
@@ -17,9 +17,9 @@ python generate.py --num_points 100
 python plot_generate.py
 ```
 
-| Shrinkage | 1                                                            | 0.8                                                          | 0.6                                                          | 0.4                                                          | 0.2                                                          | 0                                                            |
-| --------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Plot      | ![img](file://D:/OneDrive/Python/svm/figures/l1000-s1.0.png?lastModify=1709311491) | ![img](file://D:/OneDrive/Python/svm/figures/l1000-s0.8.png?lastModify=1709311491) | ![img](file://D:/OneDrive/Python/svm/figures/l1000-s0.6.png?lastModify=1709311491) | ![img](file://D:/OneDrive/Python/svm/figures/l1000-s0.4.png?lastModify=1709311491) | ![img](file://D:/OneDrive/Python/svm/figures/l1000-s0.2.png?lastModify=1709311491) | ![img](file://D:/OneDrive/Python/svm/figures/l1000-s0.0.png?lastModify=1709311491) |
+| Shrinkage | 1                         | 0.8                         | 0.6                         | 0.4                         | 0.2                         | 0                         |
+| --------- | ------------------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- | ------------------------- |
+| Plot      | ![](figures/l1000-s1.png) | ![](figures/l1000-s0.8.png) | ![](figures/l1000-s0.6.png) | ![](figures/l1000-s0.4.png) | ![](figures/l1000-s0.2.png) | ![](figures/l1000-s0.png) |
 
 ## SMO
 
