@@ -61,7 +61,7 @@ where Karush–Kuhn–Tucker conditions are:
 
 ## PDCD
 
-Implementation of [Parallel Dual Coordinate Descent Method for Large-scale Linear Classification in Multi-core Environments](https://www.csie.ntu.edu.tw/~cjlin/papers/multicore_cddual.pdf). Also check the pseudocode in [supplementary materials](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/multicore-liblinear/multicore_cddual_supplement.pdf),
+Implementation of [Parallel Dual Coordinate Descent Method for Large-scale Linear Classification in Multi-core Environments](https://www.csie.ntu.edu.tw/~cjlin/papers/multicore_cddual.pdf). Also check the pseudocode in [supplementary materials](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/multicore-liblinear/multicore_cddual_supplement.pdf).
 
 ```bash
 python pdcd/pdcd.py
